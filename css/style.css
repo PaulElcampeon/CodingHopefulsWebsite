@@ -60,13 +60,14 @@
 		min-height:70px;
 		padding:20px;
 		color:#ffffff;
+		
 	}
 	
 	header a{
 		color:#ffffff;
 		text-decoration:none;
 		text-transform:uppercase;
-		font-size:20px;
+		font-size:25px;
 		padding:5px;
 	}
 	
@@ -142,7 +143,7 @@
 	}
 	
 	#main_section article p{
-		font-size:18px;
+		font-size:20px;
 	}
 	
 	.main_section_article_container{
