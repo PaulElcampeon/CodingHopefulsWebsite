@@ -150,6 +150,29 @@
 		margin-bottom:60px;
 	}
 	
+		#scrollbar_container{
+		margin:0px;
+		padding:15px;
+		width:95%;
+		height:600px;
+		overflow:scroll;
+		background-color:black;
+
+	}
+	
+	::-webkit-scrollbar{ 
+		background-color:black;	
+		
+	}
+	
+	::-webkit-scrollbar-thumb{
+		background-color:#e8491d;
+	}
+	
+	::-webkit-scrollbar-corner {
+		background-color:black;
+	}
+	
 	/*projects main_section*/
 	
 	#projects_main_section{
@@ -327,6 +350,29 @@
 			margin-top:10px;
 			font-size: 25px;
 		}
+		
+		#scrollbar_container{
+		margin:0px;
+		padding:15px;
+		width:95%;
+		height:600px;
+		overflow:scroll;
+		background-color:black;
+
+	}
+	
+	::-webkit-scrollbar{ 
+		background-color:black;	
+		
+	}
+	
+	::-webkit-scrollbar-thumb{
+		background-color:#e8491d;
+	}
+	
+	::-webkit-scrollbar-corner {
+		background-color:black;
+	}
 		
 	}
 	
