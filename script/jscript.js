@@ -12,3 +12,18 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
+
+var project = document.getElementsByClassName("project_btn");
+var x;
+
+for (x = 0; x < project.length; x++) {
+  project[x].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var projectContent = this.nextElementSibling;
+    if (projectContent.style.display === "block") {
+      projectContent.style.display = "none";
+    } else {
+      projectContent.style.display = "block";
+    }
+  });
+}
